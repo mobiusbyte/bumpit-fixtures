@@ -1,4 +1,4 @@
-current_version: 2.0.0
+current_version: 3.0.0
 strategy: semver-major
 tracked_files:
   - README.md
