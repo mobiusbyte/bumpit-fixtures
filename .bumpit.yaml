@@ -1,7 +1,7 @@
-current_version: 3.1.0
-strategy: semver-minor
+current_version: "3.1.0"
+strategy: "semver-minor"
 tag: True
-tag_format: v{version}
+tag_format: "v{version}"
 tracked_files:
   - README.md
   - sample/VERSION
