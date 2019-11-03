@@ -1,7 +1,10 @@
-current_version: "3.2.0"
-strategy: "semver-minor"
-tag: True
-tag_format: "v{version}"
+current_version: "3.3.0"
+strategy:
+  name: "semver"
+  part: "minor"
+tag:
+  apply: True
+  format: "v{version}"
 auto_remote_push: True
 tracked_files:
   - README.md
